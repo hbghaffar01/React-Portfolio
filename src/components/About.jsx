@@ -42,10 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum hic
-        expedita ea nostrum quis cumque consequatur reprehenderit adipisci
-        sapiente praesentium at, animi amet. Numquam sint nemo distinctio
-        molestiae obcaecati? Alias!
+        As a front-end developer with more than Two and half years of professional experience, I have successfully developed and delivered numerous web applications using Vue JS and React js developer. My proficiency in HTML, CSS, and JavaScript, combined with my in-depth understanding of Vue.js, React.js core principles and best practices, enables me to build robust and scalable front-end solutions.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

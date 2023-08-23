@@ -4,24 +4,25 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    vue,
+    nuxt,
     html,
     css,
     reactjs,
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    scss,
+    storybook,
+    repairdesk,
+    southville,
+    softsquare,
+    repairdeskApp,
+    coreDirection,
+    deskDesignSystem,
+    portfoilio,
+    soutvilleSite,
     threejs,
   } from "../assets";
   
@@ -42,15 +43,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Js Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Vue Developer",
       icon: backend,
     },
     {
@@ -73,8 +74,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Vue JS",
+      icon: vue,
+    },
+    {
+      name: "Nuxt Js",
+      icon: nuxt,
     },
     {
       name: "React JS",
@@ -93,10 +98,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,68 +106,55 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Scss",
+      icon: scss,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Storybook",
+      icon: storybook,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Associate Frontend Engineer",
+      company_name: "Softsquare",
+      icon: softsquare,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2021 - Nov 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Vue.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in  scrums, code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Engineer",
+      company_name: "Southville Solutions",
+      icon: southville,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2021 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Vue.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in scrums, code reviews and providing constructive feedback to other developers and Project management also.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Frontend Engineer",
+      company_name: "Repairdesk",
+      icon: repairdesk,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2022 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using js, Vue.js and React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in scrum, User Feedback analysis.",
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -198,33 +186,45 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Repairdesk.com",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Pos system that had allowed more than 3000+ store across the world for management of the each and every thing related to their business.",
       tags: [
         {
-          name: "react",
+          name: "vue",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "nest",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "laravel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "desk-design-system",
+          color: "pink-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: repairdeskApp,
+      source_code_link: "",
     },
     {
-      name: "Job IT",
+      name: "core-direction",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for health related actitvites and it also allow coorporate for manage event for the organization and it's successfull accross united arab emirated.",
       tags: [
         {
-          name: "react",
+          name: "vue",
           color: "blue-text-gradient",
         },
         {
@@ -232,33 +232,83 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
+          name: "web-socket",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "nest",
+          color: "green-text-gradient",
+        },
+      ],
+      image: coreDirection,
+      source_code_link: "",
+    },
+    {
+      name: "desk-design-system",
+      description:
+        "A comprehensive npm User Interface package that is used accross the repairdesk oldeer and newer verion made with vuejs and tailwind. each and every component for web are developed in it.",
+      tags: [
+        {
+          name: "vue",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "storybook",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: deskDesignSystem,
+      source_code_link: "https://github.com/desk-design-system/d2s",
+    },
+    {
+      name: "Southville Solution Site",
+      description:
+        "Web application that is used for customer support for southville solutions and this let know the client about the project completed and achievement made by the company.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: soutvilleSite,
+      source_code_link: "",
+    },
+    {
+      name: "Personal Portfolio",
+      description:
+        "Web application that my own project works and achievement.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfoilio,
+      source_code_link: "https://github.com/hbghaffar01/React-Portfolio",
     },
   ];
   
