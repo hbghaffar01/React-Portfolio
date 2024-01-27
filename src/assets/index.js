@@ -30,10 +30,6 @@ import deskDesignSystem from "./desk-design-system.png"
 import soutvilleSite from "./southvilleSite.png"
 import portfoilio from "./portfolio.png"
 import clg from "./clg.png"
-import bit from "./tech/bit.jpg";
-import gitlab from "./tech/gitlab.jpg"
-import Typescript from "./tech/Typescript.png"
-import jira from "./tech/jira.png"
 import nathan from "./company/nathan.jpg"
 import site from "./clg-site.png"
 
@@ -41,10 +37,6 @@ export {
   clg,
   site,
   nathan,
-  bit,
-  gitlab,
-  Typescript,
-  jira,
   logo,
   backend,
   creator,
