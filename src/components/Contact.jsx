@@ -23,7 +23,6 @@ const Contact = () => {
     setForm({ ...form, [name]: [value] });
   };
   const emailjsServiceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
-  console.log(emailjsServiceId);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -55,8 +54,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
