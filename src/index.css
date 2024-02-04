@@ -14,11 +14,14 @@
 }
 
 .hash-span {
-  margin-top: -100px;
+   margin-top: -100px; 
   padding-bottom: 100px;
   display: block;
 }
-
+.mouse-container {
+  bottom: 30px !important;
+  z-index: 9999999!important;
+}
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -32,7 +35,9 @@
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+nav {
+  z-index: 999999999 !important;
+}
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
@@ -64,6 +69,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project-container > div:nth-child(n+4) {
+  margin-top: 40px;
+}
+
+
 
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
@@ -202,3 +217,94 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.height-adjust{
+  height:100vh;
+}
+.height-mouse {
+  height: 35px;
+  width: 22px;
+  z-index: 2;
+}
+ @media screen and (min-width:1600px) and (max-width:1750px){
+.small-adjust{
+  top:15%;
+}
+} 
+@media screen and (min-width:1300px) and (max-width:1599px){
+  .small-adjust{
+    top:10%;
+  }
+  } 
+
+  @media screen and (min-width:1025px) and (max-width:1299px){
+    .small-adjust{
+      top:12%;
+    }
+    .hero-head{
+      font-size:60px;
+    
+    }
+    .hero-subtext{
+      font-size:24px !important;
+      line-height: 30px !important;
+    }
+    } 
+
+    @media screen and (min-width:769px) and (max-width:1024px){
+      .small-adjust{
+        top:15%;
+      }
+      .hero-head{
+        font-size:50px;
+        line-height :70px !important;
+      }
+      .hero-subtext{
+        font-size:24px !important;
+        line-height: 30px !important;
+      }
+      
+    }
+
+    @media screen and (min-width:501px) and (max-width:768px){
+      .small-adjust{
+        top:15%;
+      }
+      .hero-head{
+        font-size:50px !important;
+ 
+      }
+      .hero-subtext{
+        font-size:20px !important;
+
+      }
+    }
+  @media screen and (max-width:500px){
+
+    .height-mouse {
+      height: 27px !important;
+      width: 17px !important;
+  
+  }
+  .testimonial-card {
+    padding: 1rem;
+}
+  .mob-tabs {
+    overflow-x: scroll;
+}
+
+  }
+
+  @media screen and (max-width:768px) 
+  {
+    .project-container div {
+      margin-bottom: 30px !important;
+
+      margin: 0 AUTO;
+  }
+    
+  }
+
+
+
+   

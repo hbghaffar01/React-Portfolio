@@ -32,6 +32,10 @@ import portfoilio from "./portfolio.png"
 import clg from "./clg.png"
 import nathan from "./company/nathan.jpg"
 import site from "./clg-site.png"
+import typescript from "./tech/typescript.png"
+import mongo from "./tech/mongodb.png"
+import next from "./tech/nextjs.png"
+import jira from "./tech/jira.png"
 
 export {
   clg,
@@ -64,5 +68,9 @@ export {
   coreDirection,
   deskDesignSystem,
   soutvilleSite,
-  portfoilio
+  portfoilio,
+  typescript,
+  mongo,
+  next,
+  jira
 };

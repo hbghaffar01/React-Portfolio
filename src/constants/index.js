@@ -26,6 +26,10 @@ import {
   portfoilio,
   soutvilleSite,
   threejs,
+  typescript,
+  mongo,
+  next,
+  jira
 } from "../assets";
 
 export const navLinks = [
@@ -86,6 +90,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
   },
   {
     name: "Redux Toolkit",
